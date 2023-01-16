@@ -5,8 +5,6 @@
 
 #include <SPI.h> 
 #include <MFRC522.h> 
-#define pinRST 9 
-#define pinSS 10
 
 byte readCard[4];     // Array that will hold UID of the RFID card.
 int successRead;
